@@ -11,7 +11,7 @@ sort(vec2, decreasing = T)
 
 #3. What is the major difference between str() and paste() show an example.
 str(vec1)
-paste(vec1)
+paste(vec1,vec2, sep = ",")
 
 #str() gives the structure of an object where as paste() function concatenates one or more vectors to a character vector
 
